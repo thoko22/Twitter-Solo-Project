@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons"> home </span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> search </span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> notifications_none </span>
+            <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> mail_outline </span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> bookmark_border </span>
+            <h2>Bookmarks</h2>
+        </div>
+        
+        <div class="sidebarOption">
+            <span class="material-icons"> list_alt </span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> perm_identity </span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> more_horiz </span>
+            <h2>More</h2>
+            
+        </div>
+
+        <button class="sidebar_tweet">Tweet</button>
+
+    </div>
+    
+    <!-- sidebar ends -->
+    <!-- feed starts -->
+    <div class="feed">
+        <div class="feed_header">
+            <h2>Home</h2>
+        </div>
+        <!-- tweetbox starts -->
+        <div class="tweeBox">
+            <form>
+                <div class="tweetbox_input">
+                    <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt="">
+                    <input type="text" placeholder="What`s happenning?" />
+                </div>
+                <button class="tweetButton">Tweet</button>
+            </form>
+        </div>
+    <!-- tweetbox ends -->
+    <!-- post starts -->
+    <div class="post">
+        <div class="post_avatar">
+            <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt="">
+        </div>
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>
+                        Elon Mask
+                        <span class="post_headerSpecial">
+                            <span class="material-icons post_badge"> verified </span>@elonmaskx
+                        </span>
+                    </h3>
+                </div>
+                <div class="post_headerDescription">
+                    <p>To an exciting & inspiring future!</p>
+                </div>
+            </div>
+            <img src="https://pbs.twimg.com/media/GK-vS78bsAMEmWJ?format=jpg&name=small" alt="">
+            <div class="post_footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+        </div>
+    </div>
+    <!-- post ends -->
+
+      <!-- post starts -->
+    <div class="post">
+        <div class="post_avatar">
+            <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt="">
+        </div>
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>
+                        Somanath Goudar
+                        <span class="post_headerSpecial">
+                            <span class="material-icons post_badge"> verified </span>@somanathg
+                        </span>
+                    </h3>
+                </div>
+                <div class="post_headerDescription">
+                    <p>Besiktas have fired the manager Fernando Santos just 3 months after he signed in as new head coach.</p>
+                </div>
+            </div>
+            <img src="https://pbs.twimg.com/media/GLEngC4WUAAgOqI?format=jpg&name=small" alt="">
+            <div class="post_footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+        </div>
+    </div>
+    <!-- post ends -->
+    
+    </div>
+    <!-- feed ends -->
+    <!-- widgets starts -->
+    <div class="widgets">
+        <div class="widgets_input">
+            <span class="material-icons widgets_searchIcon"> search </span>
+            <input type="text" placeholder="search Twitter">
+        </div>
+        <div class="widgets_widgetContainer">
+            <h2>What`s Happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <ul class="footer-icons">
+                <li><a href="#home"><i class="icon-home"></i></a></li>
+                <li><a href="#search"><i class="icon-search"></i></a></li>
+                <li><a href="#notifications"><i class="icon-bell"></i></a></li>
+                <li><a href="#messages"><i class="icon-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- widgets ends -->
+</body>
+</html>
