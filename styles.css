@@ -134,6 +134,26 @@ body {
     border: 1px solid var(--twitter-background);
     padding-bottom: 15px 20px;
 }
+.feed_navigation {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #1DA1F2; /* Twitter's blue color */
+    font-weight: bold;
+    margin-right: 150px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
 .feed_header h2 {
     font-size: 20px;
     font-weight: 800;
@@ -150,7 +170,6 @@ body {
 .tweet-post-icons {
     padding-left: 55px;
     padding-bottom: 30px;
-    color: #1da1f2;
 }
 
 .tweetbox_input img {
@@ -158,7 +177,9 @@ body {
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
+    color: #1DA1F2;
 }
+
 .tweeBox {
    padding-bottom: 10px;
    border-bottom: 8px solid var(--twitter-background);
